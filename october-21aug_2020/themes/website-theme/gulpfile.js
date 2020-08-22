@@ -47,8 +47,7 @@ function js(){
     .pipe(concat('all.js'))
     .pipe(terser())
     .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest('./assets/js/min'))
-    .pipe(browserSync.stream());
+    .pipe(gulp.dest('./assets/js/min'));
 }
 
 function jsDev(){
@@ -56,8 +55,7 @@ function jsDev(){
     .pipe(sourcemaps.init())
     .pipe(concat('all.js'))
     .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest('./assets/js/min'))
-    .pipe(browserSync.stream());
+    .pipe(gulp.dest('./assets/js/min'));
 }
 
 function watch(){

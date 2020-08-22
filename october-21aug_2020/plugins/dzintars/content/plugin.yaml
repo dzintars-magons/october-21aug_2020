@@ -1,0 +1,6 @@
+plugin:
+    name: 'dzintars.content::lang.plugin.name'
+    description: 'dzintars.content::lang.plugin.description'
+    author: dzintars
+    icon: oc-icon-align-justify
+    homepage: ''
