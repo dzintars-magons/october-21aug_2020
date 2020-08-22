@@ -13,46 +13,16 @@
 */
 
 .landing-page {
-
-    & .intro {
-        @include container;
-        // &__heading {
-        //     margin-top: $margin-top-primary;
-        // }
-    }
-    
-    & .advertisement {
-        @include container-fluid;
-       background-image: url(https://picsum.photos/4000/600);
-        &__content {
-            display: flex;
-            align-items: center;
-            &__heading {
-                & h3 {
-                    text-align: left;
-                    @include mobile-down {
-                        text-align: center;
-                    }
-                }
-            }
-            &__btn {
-                @include mb-primary;
-                @include mobile-down {
-                    text-align: center;
-                }
+    .hero {
+        background-color: $secondary-bg;
+        height: 600px;
+        &-content {
+            @include container-fluid;
+            &-centered {
+                padding-top: auto !important;
             }
         }
     }
-
-    & .test-wrapper {
-        @include container;
-        & .colors {
-            &__item {
-                height: 200px;
-            }
-        }
-    }
-    
 }
 
 
