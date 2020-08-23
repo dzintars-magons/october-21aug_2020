@@ -1,0 +1,14 @@
+fields:
+    heading:
+        label: 'Hero Heading'
+        span: full
+        type: text
+    text:
+        label: 'Hero Text'
+        size: ''
+        span: full
+        type: textarea
+    buttontext:
+        label: 'Hero Button Text'
+        span: auto
+        type: text

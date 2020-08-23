@@ -1,0 +1,16 @@
+columns:
+    heading:
+        label: Heading
+        type: text
+        searchable: false
+        sortable: false
+    text:
+        label: Text
+        type: text
+        searchable: false
+        sortable: false
+    buttontext:
+        label: 'Button Text'
+        type: text
+        searchable: false
+        sortable: false

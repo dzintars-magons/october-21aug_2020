@@ -1,0 +1,4 @@
+title: HeroContent
+modelClass: Dzintars\Content\Models\Hero
+toolbar:
+    buttons: reorder_toolbar

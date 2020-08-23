@@ -1,0 +1,10 @@
+name: HeroContent
+form: $/dzintars/content/models/hero/fields.yaml
+modelClass: Dzintars\Content\Models\Hero
+defaultRedirect: dzintars/content/herocontent
+create:
+    redirect: 'dzintars/content/herocontent/update/:id'
+    redirectClose: dzintars/content/herocontent
+update:
+    redirect: dzintars/content/herocontent
+    redirectClose: dzintars/content/herocontent

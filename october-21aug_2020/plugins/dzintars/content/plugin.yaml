@@ -4,3 +4,8 @@ plugin:
     author: dzintars
     icon: oc-icon-align-justify
     homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Hero Content'
+        url: dzintars/content/herocontent
+        icon: icon-align-justify
